@@ -6,28 +6,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="8dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Digite a temperatura em Celsius:" />
+        android:layout_marginTop="24dp"
+        android:text="Digite a temperatura em Celsius:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/edit_temperature"
-        android:inputType="numberDecimal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Digite a temperatura"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/button_converter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clique" />
+        android:paddingVertical="8dp"
+        android:text="Clique"
+        android:textAllCaps="true" />
 
     <TextView
         android:id="@+id/text_fahrenheit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#9C27B0"
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
