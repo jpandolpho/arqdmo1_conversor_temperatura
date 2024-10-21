@@ -15,6 +15,7 @@
 
     <EditText
         android:id="@+id/edit_temperature"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -28,5 +29,5 @@
         android:id="@+id/text_fahrenheit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    
+
 </LinearLayout>
