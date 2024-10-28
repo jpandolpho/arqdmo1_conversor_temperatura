@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Conversor de Temperatura</string>
+    <string name="message_input_celsius">Digite a temperatura em Celsius:</string>
+    <string name="text_button">Converter</string>
 </resources>

@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Digite a temperatura em Celsius:"
+        android:text="@string/message_input_celsius"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:hint="Digite a temperatura"
+        android:hint="@string/message_input_celsius"
         android:inputType="numberDecimal"
         android:padding="16dp"
         android:textAlignment="center" />
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingVertical="8dp"
-        android:text="Clique"
+        android:text="@string/text_button"
         android:textAllCaps="true" />
 
     <TextView
