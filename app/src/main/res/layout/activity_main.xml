@@ -44,7 +44,7 @@
         android:fontFamily="casual"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="#9C27B0"
+        android:textColor="@color/output"
         android:textSize="32sp"
         android:textStyle="bold" />
 
